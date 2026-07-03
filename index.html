@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>はべる / HABERU | 沖縄の自然と祈りを宿すアクセサリー</title>
+    <meta
+      name="description"
+      content="はべる / HABERUは、沖縄の自然と祈り、感謝と愛のうむいをかたちにしたアクセサリーブランドです。ネックレス、指輪、ジーファー、アロマをお届けします。"
+    />
+    <meta property="og:title" content="はべる / HABERU" />
+    <meta property="og:description" content="沖縄の自然と祈りを、身にまとう。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/img/necklace-display.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <header class="site-header" data-header>
+      <a class="brand-link" href="#top" aria-label="はべる トップへ">
+        <img src="./assets/img/logo.jpeg" alt="はべるのロゴ" />
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">メニュー</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主要ナビゲーション">
+        <a href="#products">商品一覧</a>
+        <a href="#concept">ブランドについて</a>
+        <a href="#custom">オーダーメイド</a>
+        <a href="#shops">取扱店舗</a>
+        <a href="#events">イベント</a>
+        <a class="nav-cta" href="#choose">商品を見る</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <img class="hero-sign" src="./assets/img/logo.jpeg" alt="はべるのロゴ" />
+          <p class="eyebrow">沖縄の自然と祈りを宿すアクセサリー</p>
+          <h1 id="hero-title">沖縄の自然と祈りを、身にまとう。</h1>
+          <p class="lead">
+            海、風、光、大地、植物、石。沖縄の自然に宿る気配と、感謝と愛の“うむい”をかたちにした、静かなお守りのようなアクセサリー。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#products">商品を見る</a>
+            <a class="button quiet" href="#concept">ブランドコンセプトを見る</a>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-label="ブランドの象徴画像">
+          <figure class="hero-frame">
+            <video
+              src="./assets/videos/hero-promo.mp4"
+              poster="./assets/img/necklace-display.png"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              aria-label="沖縄の自然と祈りを表現したはべるのブランドムービー"
+            >
+              お使いのブラウザは動画再生に対応していません。
+            </video>
+          </figure>
+        </div>
+      </section>
+
+      <section class="products section-pad" id="products" aria-labelledby="products-title">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Collection</p>
+          <h2 id="products-title">自然の気配を、日々のそばへ</h2>
+          <p>
+            商品写真はカテゴリごとに役割を分け、質感、手仕事、身につける意味が伝わる順で構成しています。
+          </p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <img src="./assets/img/product-necklace.jpeg" alt="貝の質感を活かしたネックレス" />
+            <div>
+              <p class="card-index">01</p>
+              <h3>ネックレス</h3>
+              <p>胸元にそっと寄り添う、祈りを宿した一点もの。</p>
+              <a href="/collections/necklace">商品を見る</a>
+            </div>
+          </article>
+          <article class="product-card reveal">
+            <img src="./assets/img/product-ring.jpeg" alt="手元に寄り添う指輪" />
+            <div>
+              <p class="card-index">02</p>
+              <h3>指輪</h3>
+              <p>日々の手元に静かに馴染む、小さなお守り。</p>
+              <a href="/collections/ring">商品を見る</a>
+            </div>
+          </article>
+          <article class="product-card reveal">
+            <img src="./assets/img/product-jifa.jpeg" alt="沖縄の装身具を思わせるジーファー" />
+            <div>
+              <p class="card-index">03</p>
+              <h3>ジーファー / かんざし</h3>
+              <p>沖縄の記憶と女性性を映す、凛とした装身具。</p>
+              <a href="/collections/jifa">商品を見る</a>
+            </div>
+          </article>
+          <article class="product-card reveal">
+            <img src="./assets/img/product-aroma.png" alt="自然素材を感じるアロマアイテム" />
+            <div>
+              <p class="card-index">04</p>
+              <h3>アロマ</h3>
+              <p>香りとともに心をほどく、自然の気配をまとう時間。</p>
+              <a href="/collections/aroma">商品を見る</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="concept section-pad" id="concept" aria-labelledby="concept-title">
+        <div class="concept-text reveal">
+          <p class="section-kicker">Brand Concept</p>
+          <h2 id="concept-title">沖縄の自然と祈りを宿すものづくり</h2>
+          <div class="body-copy">
+            <p>沖縄の自然が育んできた恵み。海、風、光、大地、植物、石。そのすべてに宿るいのちの気配を感じながら、自然と人が調和し、共に生き続けることを願って。</p>
+            <p>私たちは、目に見えるものだけではなく、祈り、感謝、愛、そして森羅万象とのつながりを大切にしています。</p>
+            <p>身につける人の心にそっと寄り添い、日々の中で自分自身へ還るような、静かなお守りのような存在でありたい。</p>
+            <p>感謝と愛の“うむい”をかたちにし、沖縄の自然と祈りを宿したものづくりを届けます。</p>
+          </div>
+        </div>
+        <div class="concept-media reveal">
+          <figure>
+            <img src="./assets/img/shell-pieces.png" alt="貝の乳白色と木漏れ日を感じる素材イメージ" />
+          </figure>
+          <img class="concept-logo" src="./assets/img/logo.jpeg" alt="はべるのロゴ" />
+        </div>
+      </section>
+
+      <section class="choose section-pad" id="choose" aria-labelledby="choose-title">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Choose</p>
+          <h2 id="choose-title">身につけたい祈りを、選ぶ</h2>
+          <p>購入ページへ進むための導線です。実URL確定後に各リンクを差し替えてください。</p>
+        </div>
+        <div class="choice-grid">
+          <a class="choice-card reveal" href="/collections/necklace">
+            <img src="./assets/img/product-necklace.jpeg" alt="ネックレスを見るための商品写真" />
+            <span>ネックレスを見る</span>
+          </a>
+          <a class="choice-card reveal" href="/collections/ring">
+            <img src="./assets/img/product-ring.jpeg" alt="指輪を見るための商品写真" />
+            <span>指輪を見る</span>
+          </a>
+          <a class="choice-card reveal" href="/collections/jifa">
+            <img src="./assets/img/product-jifa.jpeg" alt="ジーファーを見るための商品写真" />
+            <span>ジーファー / かんざしを見る</span>
+          </a>
+          <a class="choice-card reveal" href="/collections/aroma">
+            <img src="./assets/img/product-aroma.png" alt="アロマを見るための素材写真" />
+            <span>アロマを見る</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="custom section-pad" id="custom" aria-labelledby="custom-title">
+        <figure class="custom-image reveal">
+          <img src="./assets/img/pendant-pieces.png" alt="オーダーメイド制作のイメージ" />
+        </figure>
+        <div class="custom-copy reveal">
+          <p class="section-kicker">Order Made</p>
+          <h2 id="custom-title">想いをかたちにする、オーダーメイド</h2>
+          <p>
+            特別な祈りや贈りもの、大切な節目に。素材やモチーフ、込めたい想いを伺いながら、あなただけの一点をお仕立てします。
+          </p>
+          <div class="custom-lists">
+            <div>
+              <h3>こんな方におすすめ</h3>
+              <ul>
+                <li>節目の贈りものを探している方</li>
+                <li>自然や祈りを身につけたい方</li>
+                <li>一点ものとして想いを込めたい方</li>
+              </ul>
+            </div>
+            <div>
+              <h3>相談の流れ</h3>
+              <ol>
+                <li>ご相談</li>
+                <li>ヒアリング</li>
+                <li>制作・お渡し</li>
+              </ol>
+            </div>
+          </div>
+          <p class="note">価格や納期は内容により異なります。詳細はご相談ください。</p>
+          <a class="button primary" href="/pages/custom-order">オーダーメイドを相談する</a>
+        </div>
+      </section>
+
+      <section class="info-band section-pad" id="shops" aria-labelledby="shops-title">
+        <div class="info-card reveal">
+          <img src="./assets/img/ring-display.png" alt="はべるの商品ディスプレイ" />
+          <div>
+            <p class="section-kicker">Stockist</p>
+            <h2 id="shops-title">お手に取れる場所</h2>
+            <p>取扱店舗の情報は仮置きです。店舗名、エリア、営業情報、詳細リンクを確定後に差し替えてください。</p>
+            <dl>
+              <div><dt>店舗名</dt><dd>取扱店舗名を入力</dd></div>
+              <div><dt>エリア</dt><dd>沖縄県内、またはオンライン</dd></div>
+              <div><dt>営業情報</dt><dd>営業日・営業時間は要確認</dd></div>
+            </dl>
+            <a class="button quiet" href="/pages/stockists">取扱店舗を見る</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="events section-pad" id="events" aria-labelledby="events-title">
+        <div class="event-copy reveal">
+          <p class="section-kicker">News</p>
+          <h2 id="events-title">展示会・ワークショップのお知らせ</h2>
+          <p>
+            イベント写真が未用意の場合は、架空の人物写真を使わず、商品ディスプレイで世界観を保ちます。予定が未定の期間はInstagram導線として運用できます。
+          </p>
+          <div class="event-placeholder">
+            <p>次回イベント情報は準備中です。</p>
+            <a href="https://www.instagram.com/" rel="noreferrer">Instagramで最新情報を見る</a>
+          </div>
+        </div>
+        <figure class="event-image reveal">
+          <img src="./assets/img/necklace-display.png" alt="展示会を想定したはべるの商品ディスプレイ" />
+        </figure>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="./assets/img/logo.jpeg" alt="はべるのロゴ" />
+      <div>
+        <p class="footer-name">はべる / HABERU</p>
+        <p>自然に守られ、想いに寄り添う。沖縄の風と祈りを、そっと身にまとうための一点もの。</p>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="#products">商品一覧</a>
+        <a href="#concept">ブランドについて</a>
+        <a href="#custom">オーダーメイド</a>
+        <a href="#shops">取扱店舗</a>
+        <a href="#events">イベント</a>
+        <a href="/pages/contact">お問い合わせ</a>
+        <a href="https://www.instagram.com/" rel="noreferrer">Instagram</a>
+      </nav>
+      <small>&copy; HABERU. All rights reserved.</small>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
