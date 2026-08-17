@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "Haberu Corporate Yawamin";
+  src: local("Corporate Yawamin"), local("コーポレート・やわ明"),
+    url("./assets/fonts/Corporate-Yawamin-ver3.otf?v=20260817") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Haberu Corporate Yawamin";
+  src: local("Corporate Yawamin"), local("コーポレート・やわ明"),
+    url("./assets/fonts/Corporate-Yawamin-ver3.otf?v=20260817") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Haberu Corporate Yawamin";
+  src: local("Corporate Yawamin"), local("コーポレート・やわ明"),
+    url("./assets/fonts/Corporate-Yawamin-ver3.otf?v=20260817") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Haberu Corporate Yawamin";
+  src: local("Corporate Yawamin"), local("コーポレート・やわ明"),
+    url("./assets/fonts/Corporate-Yawamin-ver3.otf?v=20260817") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 :root {
   --paper: #d6dbc8;
   --paper-soft: #ece7d6;
@@ -11,8 +47,8 @@
   --ink: #172018;
   --muted: #5d6251;
   --shadow: 0 28px 80px rgba(18, 25, 16, 0.22);
-  --serif: "Shippori Mincho", serif;
-  --sans: "Shippori Mincho", serif;
+  --serif: "Haberu Corporate Yawamin", "Corporate Yawamin", "コーポレート・やわ明", serif;
+  --sans: "Haberu Corporate Yawamin", "Corporate Yawamin", "コーポレート・やわ明", serif;
 }
 
 * {
