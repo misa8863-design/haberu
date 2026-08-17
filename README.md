@@ -1,4 +1,4 @@
-# はべる / HABERU LP 制作仕様
+# はべる / haberu LP 制作仕様
 
 ## GitHubアップロード用メモ
 
@@ -88,20 +88,20 @@ PCは余白を広く取り、FVは左コピー右画像、商品は2列、購入
 
 ## 9. 仮リンク一覧
 
-- ネックレス: `/collections/necklace`
-- 指輪: `/collections/ring`
-- ジーファー / かんざし: `/collections/jifa`
-- アロマ: `/collections/aroma`
-- オーダーメイド相談: `/pages/custom-order`
-- 取扱店舗: `/pages/stockists`
-- お問い合わせ: `/pages/contact`
-- Instagram: `https://www.instagram.com/`
+- ネックレス: `https://haberu098.thebase.in/`
+- 指輪: `https://haberu098.thebase.in/`
+- ジーファー / かんざし: `https://haberu098.thebase.in/`
+- アロマ: `https://haberu098.thebase.in/`
+- オーダーメイド相談: `https://forms.gle/7d6WDAtiWd2dGYoe7`
+- 取扱店舗: `https://tsuboya-yachimun.com/gallery/%E3%81%BE%E3%81%98%E3%82%8B%E5%95%86%E5%BA%97/`
+- お問い合わせ: `https://www.instagram.com/haberu___?igsh=N2N1c241YmRqODQ%3D&igsi=N2N1c241YmRqODQ%3D&utm_source=qr`
+- Instagram: `https://www.instagram.com/haberu___?igsh=N2N1c241YmRqODQ%3D&igsi=N2N1c241YmRqODQ%3D&utm_source=qr`
 
 ## 10. 要確認項目一覧
 
 - 実際の商品購入URL
 - アロマの正式商品写真
-- 取扱店舗名、エリア、営業時間、詳細リンク
+- 取扱店舗の営業日・営業時間
 - 次回イベント名、日時、場所、内容
 - Instagramの正式URL
 - オーダーメイドの問い合わせ先、価格/納期の表記ルール
